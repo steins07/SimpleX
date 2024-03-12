@@ -1,0 +1,15 @@
+<div class="flex justify-center">
+    <mat-card class="shadow w-6/12">
+        <img mat-card-image class="!h-70" [src]="product.image">
+        <div class="p-4">
+            <h1>{{product.name}}</h1>
+            <h2>{{product.brand}}</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid necessitatibus aliquam omnis quod voluptate totam possimus quibusdam ratione deleniti reprehenderit.</p>
+            <div class="flex gap-2">
+                <span>Rs {{product.currentPrice}}</span>
+                <span><s>Rs {{product.standardPrice}}</s></span>
+                <span>({{product.discount}}%) OFF</span>
+            </div>
+        </div>
+    </mat-card>
+</div>

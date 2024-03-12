@@ -1,10 +1,11 @@
 import { Component, EventEmitter, Output } from '@angular/core';
 import { MatInputModule } from '@angular/material/input';
 import { MatButtonModule } from '@angular/material/button';
+import { FormsModule } from '@angular/forms';
 @Component({
   selector: 'app-search',
   standalone: true,
-  imports: [MatInputModule, MatButtonModule],
+  imports: [MatInputModule, MatButtonModule,FormsModule],
   templateUrl: './search.component.html',
   styleUrl: './search.component.scss'
 })
@@ -15,11 +16,13 @@ export class SearchComponent {
     this.search.emit(this.text);
   }
   text=""
-  inputChange(event:any) {
-    console.log("change occured",event.target.value);
-    this.text=event.target.value;
-  }
-  onTyping(event:any) {
-    console.log("change occured",event);
-  }
+  //removed due to two way binding
+  // inputChange(event:any) {
+  //   // this.text=event.target.value;
+  //   // console.log("change occured",event.target.value);
+  //   console.log("change occured",this.text);
+  // }
+  // onTyping(event:any) {
+  //   console.log("change occured",event);
+  // }
 }

@@ -1,7 +1,10 @@
 <div class="w-full flex items-center gap-4">
     <mat-form-field subscriptSizing="dynamic" apperance="outline" style="width: 700px;">
         <!-- <mat-label>New Item</mat-label> -->
-        <input matInput placeholder="Search" (keypress)="onTyping($event)" (change)="inputChange($event)">
+        <!-- <input matInput name="search" [(ngModel)]="text" placeholder="Search" (keypress)="onTyping($event)" (change)="inputChange($event)" > -->
+        //two way binding using [(ngModel)]="text"  
+        <input matInput name="search" [(ngModel)]="text" placeholder="Search">
     </mat-form-field>
     <button mat-raised-button color="primary" (click)="onSearch()">Search</button>
+    <button mat-raised-button color="primary" (click)="onSearch()">Add Item</button>
 </div>
