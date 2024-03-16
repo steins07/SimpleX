@@ -1,95 +1,112 @@
 {
-    "product": [
-        {
-            "id": "1",
-            "brand": "Abc",
-            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgrFOqG6PjPhS0sFukUOQzE4GYBe8e7Rw56Q&s",
-            "currentPrice": "200",
-            "standardPrice": "400",
-            "discount": "50",
-            "name": "Helios"
-        },
-        {
-            "id": "2",
-            "brand": "Abc",
-            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgrFOqG6PjPhS0sFukUOQzE4GYBe8e7Rw56Q&s",
-            "currentPrice": "210",
-            "standardPrice": "420",
-            "discount": "50",
-            "name": "Helios2"
-        },
-        {
-            "id": "3",
-            "brand": "Abc",
-            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgrFOqG6PjPhS0sFukUOQzE4GYBe8e7Rw56Q&s",
-            "currentPrice": "250",
-            "standardPrice": "500",
-            "discount": "50",
-            "name": "Helios3"
-        },
-        {
-            "id": "4",
-            "brand": "Abc",
-            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgrFOqG6PjPhS0sFukUOQzE4GYBe8e7Rw56Q&s",
-            "currentPrice": "100",
-            "standardPrice": "200",
-            "discount": "50",
-            "name": "Helios4"
-        },
-        {
-            "id": "5",
-            "brand": "Abc",
-            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgrFOqG6PjPhS0sFukUOQzE4GYBe8e7Rw56Q&s",
-            "currentPrice": "2000",
-            "standardPrice": "4000",
-            "discount": "50",
-            "name": "Helios5"
-        },
-        {
-            "id": "6",
-            "brand": "Abc",
-            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgrFOqG6PjPhS0sFukUOQzE4GYBe8e7Rw56Q&s",
-            "currentPrice": "2000",
-            "standardPrice": "4000",
-            "discount": "50",
-            "name": "Helios5"
-        },
-        {
-            "id": "7",
-            "brand": "Abc",
-            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgrFOqG6PjPhS0sFukUOQzE4GYBe8e7Rw56Q&s",
-            "currentPrice": "2000",
-            "standardPrice": "4000",
-            "discount": "50",
-            "name": "Helios5"
-        },
-        {
-            "id": "8",
-            "brand": "Abc",
-            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgrFOqG6PjPhS0sFukUOQzE4GYBe8e7Rw56Q&s",
-            "currentPrice": "2000",
-            "standardPrice": "4000",
-            "discount": "50",
-            "name": "Helios5"
-        },
-        {
-            "id": "9",
-            "brand": "Abc",
-            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgrFOqG6PjPhS0sFukUOQzE4GYBe8e7Rw56Q&s",
-            "currentPrice": "2000",
-            "standardPrice": "4000",
-            "discount": "50",
-            "name": "Helios5"
-        }
-        ,
-        {
-            "id": "10",
-            "brand": "Abc",
-            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgrFOqG6PjPhS0sFukUOQzE4GYBe8e7Rw56Q&s",
-            "currentPrice": "2000",
-            "standardPrice": "4000",
-            "discount": "50",
-            "name": "Helios5"
-        }
-    ]
+  "product": [
+    {
+      "id": "1",
+      "brand": "Abc",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgrFOqG6PjPhS0sFukUOQzE4GYBe8e7Rw56Q&s",
+      "currentPrice": "200",
+      "standardPrice": "400",
+      "discount": "50",
+      "name": "Helios"
+    },
+    {
+      "id": "2",
+      "brand": "Abc",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgrFOqG6PjPhS0sFukUOQzE4GYBe8e7Rw56Q&s",
+      "currentPrice": "210",
+      "standardPrice": "420",
+      "discount": "50",
+      "name": "Helios2"
+    },
+    {
+      "id": "3",
+      "brand": "Abc",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgrFOqG6PjPhS0sFukUOQzE4GYBe8e7Rw56Q&s",
+      "currentPrice": "250",
+      "standardPrice": "500",
+      "discount": "50",
+      "name": "Helios3"
+    },
+    {
+      "id": "4",
+      "brand": "Abc",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgrFOqG6PjPhS0sFukUOQzE4GYBe8e7Rw56Q&s",
+      "currentPrice": "100",
+      "standardPrice": "200",
+      "discount": "50",
+      "name": "Helios4"
+    },
+    {
+      "id": "5",
+      "brand": "Abc",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgrFOqG6PjPhS0sFukUOQzE4GYBe8e7Rw56Q&s",
+      "currentPrice": "2000",
+      "standardPrice": "4000",
+      "discount": "50",
+      "name": "Helios5"
+    },
+    {
+      "id": "6",
+      "brand": "Abc",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgrFOqG6PjPhS0sFukUOQzE4GYBe8e7Rw56Q&s",
+      "currentPrice": "2000",
+      "standardPrice": "4000",
+      "discount": "50",
+      "name": "Helios5"
+    },
+    {
+      "id": "7",
+      "brand": "Abc",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgrFOqG6PjPhS0sFukUOQzE4GYBe8e7Rw56Q&s",
+      "currentPrice": "2000",
+      "standardPrice": "4000",
+      "discount": "50",
+      "name": "Helios5"
+    },
+    {
+      "id": "8",
+      "brand": "Abc",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgrFOqG6PjPhS0sFukUOQzE4GYBe8e7Rw56Q&s",
+      "currentPrice": "2000",
+      "standardPrice": "4000",
+      "discount": "50",
+      "name": "Helios5"
+    },
+    {
+      "id": "9",
+      "brand": "Abc",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgrFOqG6PjPhS0sFukUOQzE4GYBe8e7Rw56Q&s",
+      "currentPrice": "2000",
+      "standardPrice": "4000",
+      "discount": "50",
+      "name": "Helios5"
+    },
+    {
+      "id": "10",
+      "brand": "Abc",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgrFOqG6PjPhS0sFukUOQzE4GYBe8e7Rw56Q&s",
+      "currentPrice": "2000",
+      "standardPrice": "4000",
+      "discount": "50",
+      "name": "Helios5"
+    },
+    {
+      "id": "55d6",
+      "name": "Steins",
+      "brand": "xyz",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgrFOqG6PjPhS0sFukUOQzE4GYBe8e7Rw56Q&s",
+      "currentPrice": "10000",
+      "standardPrice": "20000",
+      "discount": "50"
+    },
+    {
+      "id": "63b5",
+      "name": "STEin",
+      "brand": "TS",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgrFOqG6PjPhS0sFukUOQzE4GYBe8e7Rw56Q&s",
+      "currentPrice": "2000",
+      "standardPrice": "4000",
+      "discount": "50"
+    }
+  ]
 }

@@ -1,12 +1,12 @@
 <mat-card class="shadow">
-    <img mat-card-image class="!h-70"
-        [src]="product.image">
+    <img mat-card-image class="!h-70" [src]="product.image">
     <div class="p-4">
         <h1>{{product.name}}</h1>
-        <h2>{{product.brand}}</h2>
+        <!-- using pipe to change to uppercase -->
+        <h2>{{product.brand|uppercase}}</h2>
         <div class="flex gap-2">
-            <span>Rs {{product.currentPrice}}</span>
-            <span><s>Rs {{product.standardPrice}}</s></span>
+            <span>{{product.currentPrice|rupee}}</span>
+            <span><s>{{product.standardPrice|rupee}}</s></span>
             <span>({{product.discount}}%) OFF</span>
         </div>
         <div class="flex justify-center pt-5">

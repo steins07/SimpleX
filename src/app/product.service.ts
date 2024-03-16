@@ -14,4 +14,10 @@ export class ProductService {
   getProductById(id: number){
     return this.httpClient.get<Product>("http://localhost:3000/product/"+id)
   }
+  addProduct(product: Product){
+    return this.httpClient.post<Product>("http://localhost:3000/product",product)
+  }
+  updateProduct(product: Product){
+    return this.httpClient.put<Product>("http://localhost:3000/product/"+product.id,product)
+  }
 }
